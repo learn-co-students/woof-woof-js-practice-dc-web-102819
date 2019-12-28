@@ -29,7 +29,7 @@ to get all of the pup objects. When you have this information, you'll need to ad
 a `span` with the pup's name to the dog bar (ex: `<span>Mr. Bonkers</span>`). -->
 
 ### STEP 3: SHOW MORE INFO ABOUT EACH PUP
-When a user clicks on a pup's `span` in the dog bar, that pup's info (`image`, `name`, and `isGoodDog` status) should show up in the `div` with the id of `"dog-info"`.
+<!-- When a user clicks on a pup's `span` in the dog bar, that pup's info (`image`, `name`, and `isGoodDog` status) should show up in the `div` with the id of `"dog-info"`.
 When you have the pup's information, the dog info `div` should have the following children:
  - an `img` tag with the pup's image url
  - an `h2` with the pup's name
@@ -38,14 +38,14 @@ When you have the pup's information, the dog info `div` should have the followin
  ```
   <img src=dog_image_url>
   <h2>Mr. Bonkers</h2>
-  <button>Good Dog!</button>
+  <button>Good Dog!</button> -->
  ```
 
- ### STEP 4: TOGGLE GOOD DOG
+ <!-- ### STEP 4: TOGGLE GOOD DOG
  When a user clicks the Good Dog/Bad Dog button, two things should happen:
   - The button's text should change from Good to Bad or Bad to Good
   - The corresponding pup object in the database should be updated to reflect the new isGoodDog value
-    - Please note, you can update a dog by making a PATCH request to `/pups/:id`
+    - Please note, you can update a dog by making a PATCH request to `/pups/:id` -->
 
 ### BONUS! STEP 5: FILTER GOOD DOGS 
 When a user clicks on the Filter Good Dogs button, two things should happen:
